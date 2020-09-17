@@ -1,16 +1,16 @@
 # :desktop_computer: What to do after building a pc in 2020?
 
-I have been using laptops for ages, Dell Latitude D600 from 2003, Acer Aspire 4820 from 2010 and HPs for work. Record the steps for my first PC build, hopefully, to be of some help for the next one.
+I have been using laptops for ages, Dell Latitude D600 from 2003, Acer Aspire 4820 from 2010 and HPs for work. Finally built one for myself.
 
+Main parts: AMD R5 3600 + MSI Mortar MAX + Nvidia 1660 super.
 
+Record the steps for my first PC build, hopefully, to be of some help for the next one.
 
-AMD R5 3600 + MSI Mortar MAX + Nvidia 1660 super
-
-
+[TOC]
 
 ## Pre-Building
 
-### Numbers
+### Specifications
 
 Size of motherboard.
 
@@ -26,15 +26,17 @@ Wattage of power supply.
 
 ### Shopping list
 
+PH2 screwdriver (for removing the default CPU bracket on the motherboard).
+
 HDMI or DisplayPort cable.
+
+USB disk as [Windows 10 installation media](https://www.microsoft.com/en-us/software-download/windows10).
+
+USB keyboard (comment from a Bluetooth keyboarder).
 
 Wireless USB Adapter.
 
 Bluetooth USB Adapter.
-
-PH2 screwdriver (for removing the default CPU bracket on the motherboard).
-
-USB keyboard (comment from a Bluetooth keyboarder).
 
 
 
@@ -42,39 +44,78 @@ USB keyboard (comment from a Bluetooth keyboarder).
 
 Memory slots for dual-channel setup.
 
-Test power with fans before installing into the case.
+Test power via fans before screwing into the case.
 
-Direction of the fans.
+Orientation of the fans.
+
+
+
+### OS part (15min)
+
+1. Power on: lights on, screen on, welcome to the BIOS.
+2. BIOS setting: Change the boot order to recognise USB disk.
+3. Reboot to install Win10.
+4. Reboot to setup Win10 (no network, no activation and turn off privacy).
 
 
 
 ## Fisrt-of-all-after-building
 
-Turn off optimisation for SSD.
+### Turn off optimisation
 
-![image-20200915230652879](Screenshots/image-20200915230652879.png)
+Do NOT defragment SSD .This is a windows bug and was fixed recently.
 
-
-
-Cancel indexing.
+<img src="screenshots/disk_management.png" align="left" width="600"/>
 
 
 
-Cancel disk protection.
+### Cancel indexing
+
+Use other tools for global searching, so cancel the indexing on the disk.
+
+<img src="screenshots/indexing.png" align="left"/>
 
 
 
-Update Windows.
+### Cancel disk protection
 
 
+
+### Activate Windows
+
+Plug wireless USB adapter on and activate Windows.
+
+
+
+### Update Windows
+
+Update Windows with several reboot until see the message "Up to date".
+
+
+
+### Update GPU driver
 
 Update video card driver: https://www.nvidia.com/en-us/geforce/drivers/
 
-latest version: [451.67](https://www.nvidia.com/en-us/drivers/results/162105/)
+Latest version: [451.67](https://www.nvidia.com/en-us/drivers/results/162105/)
 
 
 
-Update BIOS driver.
+Install the driver without GF experience.
+
+Open NVIDIA control panel:
+
+> Set "Power management mode" to max.
+>
+> Set "Texture filtering - Quality" to High performance.
+>
+> -- <cite>JayzTwoCents [video](https://youtu.be/RYYoCXh2gtw?t=1055)</cite>
+
+<img src="screenshots/nvidia_settings.png" align="left" width="400"/>
+
+
+
+### Update BIOS driver
 
 Check BIOS version in CMD/Powershell by:
 
@@ -84,13 +125,7 @@ systeminfo
 
 Latest version: [7B89v1E](https://www.msi.com/Motherboard/support/B450M-MORTAR#down-bios)
 
-
-
-
-
-Set max performance for video card.
-
-![image-20200915230541945](Screenshots/image-20200915230541945.png)
+Download the file into USB disk, plug in and update it.
 
 
 
@@ -129,13 +164,10 @@ Windows Hello Face
 Windows Media Player
 Math Recognizer
 
+<img src="screenshots/apps_features_cortana.png" align="left" width="400"/>
 
 
-![image-20200915221201167](README.assets/image-20200915221201167.png)
-
-
-
-![image-20200915221235663](README.assets/image-20200915221235663.png)
+<img src="screenshots/cortana_advanced_options.png" align="left" width="400"/>
 
 
 
