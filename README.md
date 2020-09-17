@@ -1,4 +1,4 @@
-# :desktop_computer: What to do after building a pc in 2020?
+# :desktop_computer: What to do after building a pc in 2020
 
 I have been using laptops for ages, Dell Latitude D600 from 2003, Acer Aspire 4820 from 2010 and HPs for work. Finally built one for myself.
 
@@ -12,41 +12,41 @@ Record the steps for my first PC build, hopefully, to be of some help for the ne
 
 ### Specifications
 
-Size of motherboard.
+- Size of motherboard.
 
-Height of CPU cooler.
+- Height of CPU cooler.
 
-Length of GPU card.
+- Length of GPU card.
 
-Length of power supply.
+- Length of power supply.
 
-Wattage of power supply.
+- Wattage of power supply.
 
 
 
 ### Shopping list
 
-PH2 screwdriver (for removing the default CPU bracket on the motherboard).
+- PH2 screwdriver (for removing the default CPU bracket on the motherboard).
 
-HDMI or DisplayPort cable.
+- HDMI or DisplayPort cable.
 
-USB disk as [Windows 10 installation media](https://www.microsoft.com/en-us/software-download/windows10).
+- USB disk as [Windows 10 installation media](https://www.microsoft.com/en-us/software-download/windows10).
 
-USB keyboard (comment from a Bluetooth keyboarder).
+- USB keyboard (comment from a Bluetooth keyboarder).
 
-Wireless USB Adapter.
+- Wireless USB Adapter.
 
-Bluetooth USB Adapter.
+- Bluetooth USB Adapter.
 
 
 
 ### Checklist
 
-Memory slots for dual-channel setup.
+- Memory slots for dual-channel setup.
 
-Test power via fans before screwing into the case.
+- Test power via fans before screwing into the case.
 
-Orientation of the fans.
+- Orientation of the fans.
 
 
 
@@ -65,7 +65,10 @@ Orientation of the fans.
 
 Do NOT defragment SSD .This is a windows bug and was fixed recently.
 
-<img src="screenshots/disk_management.png" align="left" width="600"/>
+
+<img src="./screenshots/disk_management.png" align="left" width="600"/>
+
+
 
 
 
@@ -73,11 +76,18 @@ Do NOT defragment SSD .This is a windows bug and was fixed recently.
 
 Use other tools for global searching, so cancel the indexing on the disk.
 
+
 <img src="screenshots/indexing.png" align="left"/>
 
 
 
+
+
 ### Cancel disk protection
+
+Control Panel\System and Security\BitLocker Drive Encryption
+
+Turn off the BitLocker.
 
 
 
@@ -111,7 +121,7 @@ Open NVIDIA control panel:
 >
 > -- <cite>JayzTwoCents [video](https://youtu.be/RYYoCXh2gtw?t=1055)</cite>
 
-<img src="screenshots/nvidia_settings.png" align="left" width="400"/>
+<img src="./screenshots/nvidia_settings.png" align="left" width="400"/>
 
 
 
@@ -164,10 +174,16 @@ Windows Hello Face
 Windows Media Player
 Math Recognizer
 
-<img src="screenshots/apps_features_cortana.png" align="left" width="400"/>
 
 
-<img src="screenshots/cortana_advanced_options.png" align="left" width="400"/>
+<img src="./screenshots/apps_features_cortana.png" align="left" width="400"/>
+
+
+
+
+<img src="./screenshots/cortana_advanced_options.png" align="left" width="400"/>
+
+
 
 
 
@@ -195,13 +211,15 @@ offffff   (mostofthem)
 
 ## More Settings
 
-#### Monitor
+#### Display
 
 Refresh rate: 144Hz
 
 
 
 #### Chrome
+
+Relocate the temp folder:
 
 
 ```
@@ -213,7 +231,7 @@ mklink /D "C:\Users\Shaw\AppData\Local\Google\Chrome\User Data" "E:\Temp\ChromeU
 
 #### Win Library
 
-Remove some
+Remove unused ones.
 
 Move user library location
 
@@ -221,9 +239,9 @@ Move user library location
 
 #### Win
 
-theme
+Set theme.
 
-night light
+Set night light.
 
 
 
