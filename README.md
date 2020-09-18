@@ -6,7 +6,18 @@ Main parts: AMD R5 3600 + MSI Mortar MAX + Nvidia 1660 super.
 
 Record the steps for my first PC build, hopefully, to be of some help for the next one.
 
-[TOC]
+
+
+Table of contents
+-----------------
+
+   * [Pre-Building](#Pre-Building)
+   * [First-of-all](#First-of-all)
+   * [Windows settings](#Windows settings)
+   * [More settings](#More settings)
+   * [Software](#Software)
+
+
 
 ## Pre-Building
 
@@ -59,7 +70,7 @@ Record the steps for my first PC build, hopefully, to be of some help for the ne
 
 
 
-## Fisrt-of-all-after-building
+## Fisrt-of-all
 
 ### Turn off optimisation
 
@@ -67,27 +78,6 @@ Do NOT defragment SSD .This is a windows bug and was fixed recently.
 
 
 <img src="./screenshots/disk_management.png" align="left" width="600"/>
-
-
-
-
-
-### Cancel indexing
-
-Use other tools for global searching, so cancel the indexing on the disk.
-
-
-<img src="screenshots/indexing.png" align="left"/>
-
-
-
-
-
-### Cancel disk protection
-
-Control Panel\System and Security\BitLocker Drive Encryption
-
-Turn off the BitLocker.
 
 
 
@@ -109,6 +99,8 @@ Update video card driver: https://www.nvidia.com/en-us/geforce/drivers/
 
 Latest version: [451.67](https://www.nvidia.com/en-us/drivers/results/162105/)
 
+- Change the notification setting when install.
+
 
 
 Install the driver without GF experience.
@@ -125,6 +117,25 @@ Open NVIDIA control panel:
 
 
 
+### Cancel indexing
+
+Use other tools for global searching, so cancel the indexing on the disk.
+
+
+<img src="screenshots/indexing.png" align="left"/>
+
+
+
+### Cancel disk protection
+
+Control Panel\System and Security\BitLocker Drive Encryption
+
+Turn off the BitLocker.
+
+- disk cleanup by the end
+
+
+
 ### Update BIOS driver
 
 Check BIOS version in CMD/Powershell by:
@@ -136,6 +147,14 @@ systeminfo
 Latest version: [7B89v1E](https://www.msi.com/Motherboard/support/B450M-MORTAR#down-bios)
 
 Download the file into USB disk, plug in and update it.
+
+
+
+### Hello again BIOS
+
+Turn on XMP, so the memories can run at full frequency.
+
+
 
 
 
@@ -217,6 +236,50 @@ Refresh rate: 144Hz
 
 
 
+#### Win Library
+
+Remove unused ones.
+
+Move user library location out of Drive C.
+
+
+
+#### Win
+
+Set theme.
+
+Set night light.
+
+Set task bar.
+
+Add Fira Code.
+
+
+
+#### Backup
+
+Disk++
+
+
+
+#### Mileage
+
+Drive C: 35.4G used.
+
+All Drives: 253034 objects.
+
+
+
+## Software
+
+### Welcome to Windows bundle
+
+Chocolatey: ```choco install list.config ```
+
+MSI light
+
+
+
 #### Chrome
 
 Relocate the temp folder:
@@ -229,49 +292,9 @@ mklink /D "C:\Users\Shaw\AppData\Local\Google\Chrome\User Data" "E:\Temp\ChromeU
 
 
 
-#### Win Library
-
-Remove unused ones.
-
-Move user library location
-
-
-
-#### Win
-
-Set theme.
-
-Set night light.
-
-
-
-#### Backup
-
-Disk++
-
-
-
-#### Mileage
-
-C disk: 35.4G used.
-
-All disks: 253034 objects.
-
-
-
-## Software
-
-### System
-
-Chocolatey: ```choco install list.config ```
-
-MSI light
-
-
-
 ### Coding
 
-VS
+VS, set solution default location out of Drive C.
 
 VS Code
 
@@ -281,17 +304,21 @@ VS Code
 
 ### Entertainment
 
-Game launcher set: Battle.net, Epic, Origin, Steam, Uplay
+Game launcher bundle: Battle.net, Epic, Origin, Steam, Uplay
 
 
 
 ### Win Store
 
 xodo pdf
+
 eartrumpet
+
+CrystalDiskMark
 
 
 
 ## License
 
-CC-BY-4.0
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+
