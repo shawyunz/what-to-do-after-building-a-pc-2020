@@ -13,11 +13,11 @@ Table of contents
 
    * [Pre-Building](#Pre-Building)
    * [First-of-all](#First-of-all)
-   * [Windows settings](#Windows settings)
-   * [More settings](#More settings)
+   * [Windows-Settings](#Windows-Settings)
+   * [More-Settings](#More-Settings)
    * [Software](#Software)
 
-
+<br/><br/>
 
 ## Pre-Building
 
@@ -68,7 +68,7 @@ Table of contents
 3. Reboot to install Win10.
 4. Reboot to setup Win10 (no network, no activation and turn off privacy).
 
-
+<br/><br/>
 
 ## Fisrt-of-all
 
@@ -77,8 +77,9 @@ Table of contents
 Do NOT defragment SSD .This is a windows bug and was fixed recently.
 
 
-<img src="./screenshots/disk_management.png" align="left" width="600"/>
+<img src="./Screenshots/disk_management.png" align="left" width="600"/>
 
+<br/><br/>
 
 
 ### Activate Windows
@@ -113,18 +114,18 @@ Open NVIDIA control panel:
 >
 > -- <cite>JayzTwoCents [video](https://youtu.be/RYYoCXh2gtw?t=1055)</cite>
 
-<img src="./screenshots/nvidia_settings.png" align="left" width="400"/>
+<img src="./Screenshots/nvidia_settings.png" align="left" width="400"/>
 
-
+<br/><br/>
 
 ### Cancel indexing
 
 Use other tools for global searching, so cancel the indexing on the disk.
 
 
-<img src="screenshots/indexing.png" align="left"/>
+<img src="./Screenshots/indexing.png" align="left"/>
 
-
+<br/><br/>
 
 ### Cancel disk protection
 
@@ -154,11 +155,9 @@ Download the file into USB disk, plug in and update it.
 
 Turn on XMP, so the memories can run at full frequency.
 
+<br/><br/>
 
-
-
-
-## Windows settings
+## Windows-Settings
 
 ### Apps
 
@@ -193,18 +192,13 @@ Windows Hello Face
 Windows Media Player
 Math Recognizer
 
+<img src="./Screenshots/apps_features_cortana.png" align="left" width="400"/>
 
+<br/><br/>
 
-<img src="./screenshots/apps_features_cortana.png" align="left" width="400"/>
+<img src="./Screenshots/cortana_advanced_options.png" align="left" width="400"/>
 
-
-
-
-<img src="./screenshots/cortana_advanced_options.png" align="left" width="400"/>
-
-
-
-
+<br/><br/>
 
 ### System
 
@@ -226,9 +220,9 @@ offffffff (allofthem)
 
 offffff   (mostofthem)			
 
+<br/><br/>
 
-
-## More Settings
+## More-Settings
 
 #### Display
 
@@ -241,7 +235,6 @@ Refresh rate: 144Hz
 Remove unused ones.
 
 Move user library location out of Drive C.
-
 
 
 #### Win
@@ -268,7 +261,7 @@ Drive C: 35.4G used.
 
 All Drives: 253034 objects.
 
-
+<br/><br/>
 
 ## Software
 
@@ -316,7 +309,7 @@ eartrumpet
 
 CrystalDiskMark
 
-
+<br/><br/>
 
 ## License
 
