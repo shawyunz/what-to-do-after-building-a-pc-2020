@@ -17,7 +17,7 @@ Table of contents
    * [More-Settings](#More-Settings)
    * [Software](#Software)
 
-<br/><br/>
+<br/>
 
 ## Pre-Building
 
@@ -68,7 +68,7 @@ Table of contents
 3. Reboot to install Win10.
 4. Reboot to setup Win10 (no network, no activation and turn off privacy).
 
-<br/><br/>
+
 
 ## Fisrt-of-all
 
@@ -77,9 +77,11 @@ Table of contents
 Do NOT defragment SSD .This is a windows bug and was fixed recently.
 
 
-<img src="./Screenshots/disk_management.png" align="left" width="600"/>
 
-<br/><br/>
+<img src="./Screenshots/disk_management.png" width="600"/>
+
+
+
 
 
 ### Activate Windows
@@ -114,18 +116,16 @@ Open NVIDIA control panel:
 >
 > -- <cite>JayzTwoCents [video](https://youtu.be/RYYoCXh2gtw?t=1055)</cite>
 
-<img src="./Screenshots/nvidia_settings.png" align="left" width="400"/>
+<img src="./Screenshots/nvidia_settings.png" width="400"/>
 
-<br/><br/>
 
 ### Cancel indexing
 
 Use other tools for global searching, so cancel the indexing on the disk.
 
 
-<img src="./Screenshots/indexing.png" align="left"/>
+<img src="./Screenshots/indexing.png"/>
 
-<br/><br/>
 
 ### Cancel disk protection
 
@@ -155,7 +155,7 @@ Download the file into USB disk, plug in and update it.
 
 Turn on XMP, so the memories can run at full frequency.
 
-<br/><br/>
+<br/>
 
 ## Windows-Settings
 
@@ -165,40 +165,38 @@ Turn on XMP, so the memories can run at full frequency.
 
 **Uninstall**
 
-feedback hub
-Groove Music
-Mail and Calendar
-MS Solitaire Collection
-MS Edge
-MR portal
-Skype
-Spotify
-Tips
-Voice Recorder
-Weather
+ - feedback hub
+ - Groove Music
+ - Mail and Calendar
+ - MS Solitaire Collection
+ - MS Edge
+ - MR portal
+ - Skype
+ - Spotify
+ - Tips
+ - Voice Recorder
+ - Weather
 
 **Advanced options - Off and Terminate**
 
-Cortana
-Get help
-Maps
-Movies TV
-People
+ - Cortana
+ - Get help
+ - Maps
+ - Movies TV
+ - People
+ 
+
+<img src="./Screenshots/apps_features_cortana.png" width="400"/>
+
+<img src="./Screenshots/cortana_advanced_options.png" width="400"/>
+
 
 **Optional features - Remove**
-Windows Fax and Scan
-IE11
-Windows Hello Face
-Windows Media Player
-Math Recognizer
-
-<img src="./Screenshots/apps_features_cortana.png" align="left" width="400"/>
-
-<br/><br/>
-
-<img src="./Screenshots/cortana_advanced_options.png" align="left" width="400"/>
-
-<br/><br/>
+ - Windows Fax and Scan
+ - IE11
+ - Windows Hello Face
+ - Windows Media Player
+ - Math Recognizer
 
 ### System
 
@@ -220,7 +218,7 @@ offffffff (allofthem)
 
 offffff   (mostofthem)			
 
-<br/><br/>
+<br/>
 
 ## More-Settings
 
@@ -261,7 +259,7 @@ Drive C: 35.4G used.
 
 All Drives: 253034 objects.
 
-<br/><br/>
+<br/>
 
 ## Software
 
@@ -309,7 +307,7 @@ eartrumpet
 
 CrystalDiskMark
 
-<br/><br/>
+<br/>
 
 ## License
 
